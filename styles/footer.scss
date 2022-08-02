@@ -1,0 +1,30 @@
+#fo-top {
+    display: flex;
+    background-color: #2D4059;
+    color: #fff ;
+    height: 135px;
+    gap: 35px;
+}
+
+.steps{
+    display: flex;
+    gap: 15px;
+}
+
+.fo-top-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+h4{
+    font-weight: bold;
+}
+
+// .fo-font{
+//     width: 36px;
+//     color: red;
+// }
+
+
