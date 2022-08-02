@@ -1,5 +1,6 @@
 #fo-top {
     display: flex;
+    justify-content: center;
     background-color: #2D4059;
     color: #fff ;
     height: 135px;
@@ -16,6 +17,10 @@
     flex-direction: column;
     justify-content: center;
     gap: 15px;
+    & p{
+        font-size: 0.65rem;
+        max-width: 180px;
+    }
 }
 
 h4{
