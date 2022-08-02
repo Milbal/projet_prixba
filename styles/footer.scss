@@ -9,6 +9,7 @@
 
 .steps{
     display: flex;
+    align-items: center;
     gap: 15px;
 }
 
@@ -27,9 +28,15 @@ h4{
     font-weight: bold;
 }
 
-.fo-font{
-    width: 36px;
-    // color: red;
+.fa-solid{
+    height: 35px;
+    width: 35px;
+    border-radius: 17.5px;
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EA5455;
 }
 
 /***2ND PART***/  /***2ND PART***/  /***2ND PART***/ /***2ND PART***/
