@@ -22,9 +22,26 @@ h4{
     font-weight: bold;
 }
 
-// .fo-font{
-//     width: 36px;
-//     color: red;
-// }
+.fo-font{
+    width: 36px;
+    // color: red;
+}
+
+/***2ND PART***/  /***2ND PART***/  /***2ND PART***/ /***2ND PART***/
+
+#fo-mid{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    background-color: #e5e5e5;
+}
+
+.items{
+    line-height: 25px;
+}
+
+
+
 
 
