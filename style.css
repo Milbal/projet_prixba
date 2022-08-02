@@ -57,4 +57,47 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 
+.ho-section {
+  margin-top: 150px;
+}
+
+.ho-grille1 {
+  display: flex;
+  justify-content: center;
+}
+
+.ho-titre1 {
+  color: #EA5455;
+  margin-left: 283px;
+  margin-right: 282px;
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 17px;
+}
+
+.ho-box {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: flex;
+  margin: 10px;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #FCFCFC;
+  box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+
+.ho-img {
+  width: 80px;
+  border: 1px red solid;
+  padding: 15px;
+}
+
+.ho-divimg {
+  padding: 15px;
+}
+
 /*# sourceMappingURL=style.css.map */
