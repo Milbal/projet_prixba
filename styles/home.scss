@@ -1,47 +1,224 @@
+
+// ....................................1ère partie...........................................
 .ho-section{
     margin-top: 150px;
 }
 .ho-grille1{
-// margin-left: 25;
-// margin-right: 282px;
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .ho-titre1{
-color: #EA5455;
-margin-left: 283px;
-margin-right: 282px;
-margin-bottom: 40px;
-font-weight: 700;
-font-size: 25px;
-line-height: 17px;
+    color: #EA5455;
+    margin-left: 150px;
+    margin-right: 282px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 17px;
 }
+
 .ho-box{
 
-flex-wrap: wrap;
-justify-content: space-between;
-display: flex;
-margin: 10px;
+    display: flex;
+    margin: 10px;
+    padding-bottom: 0%;
 
 
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
 
 
-background: #FCFCFC;
+    background: #FCFCFC;
 
-box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.1);
-border-radius: 6px;
+    box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
 }
 
 .ho-img{
-    width: 80px;
+    width: 120px;
     border: 1px red solid;
     padding: 15px;
 }
+
 .ho-divimg{
     padding: 15px;
 }
+
+p{
+    font-weight: 10px;
+    font-size: 10px;
+}
+
+.ho-p1{
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.ho-p3{
+    color: rgba(66, 204, 88, 1);
+    text-align: right;
+
+}
+
+.ho-arrow-left {
+    width: 0;
+    height: 0;
+    margin: 60px;
+    
+    border-top: 16px solid transparent;
+    border-bottom: 16px solid transparent;
+    
+    border-right: 20px solid  #EA5455;
+    border-radius: 6px;
+}
+
+
+.ho-arrow-right {
+    width: 0;
+    height: 0;
+    margin: 60px ;
+    
+    border-top: 16px solid transparent;
+    border-bottom: 16px solid transparent;
+    
+    border-left: 20px solid  #EA5455;
+    border-radius: 6px;
+   
+}
+
+
+// ....................................2ème partie...........................................
+
+.ho-lien1{
+    font-weight: 300;
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.ho-titre2{
+    color: #EA5455;
+    margin-left: 150px;
+    margin-right: 282px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 17px;
+}
+
+.ho-offre{
+ 
+    height: 120px;
+    width: 120px;
+    margin: 10px;
+    background: #2D4059;
+    border-radius: 10px;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ho-box2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ho-icon{
+    color: #FCFCFC;
+}
+
+.ho-offre a {
+    font-size: 10px;
+    text-decoration: none;
+    color: #FCFCFC;
+}
+
+// ----------------------------------3ème partie-----------------------------------
+
+
+
+.ho-grille3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.ho-box3{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding-bottom: 0%;
+}
+
+.ho-img3{
+    width: 220px;
+    padding: 15px;
+    display: flex;
+}
+
+.ho-titre3{
+    color: #EA5455;
+    margin-left: 150px;
+    margin-right: 282px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 17px;
+}
+
+.ho-divimg1{
+    padding: 15px;
+}
+
+.ho-box3 a {
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    color:  #EA5455;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:960px)
+{
+
+
+.ho-section{
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+
+// responsive 1ère partie
+    .ho-divimg{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    }
+    .ho-img{
+        width: 100%;
+    }
+
+    .ho-box,.ho-delate{
+        display: none;
+    }
+
+    .ho-box{
+        background-image: url(../images/produits_prixba/bricolage_jardinage_secateur.png);
+        width: 300px;
+    }
+}
+
+
+
+
+
