@@ -67,21 +67,19 @@ html {
   padding: 0 10%;
   flex-wrap: wrap;
 }
-
-.steps {
+#fo-top .fo-top__steps {
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
   gap: 15px;
 }
-
-.fo-top-text {
+#fo-top .fo-top__steps .fo-top__steps-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 15px;
 }
-.fo-top-text p {
+#fo-top .fo-top__steps .fo-top__steps-text p {
   font-size: 0.65rem;
   max-width: 180px;
 }
@@ -145,8 +143,7 @@ h4 {
   #fo-top {
     padding: 50px 5%;
   }
-
-  .steps {
+  #fo-top .fo-top__steps {
     flex-direction: column;
     align-items: flex-start;
     gap: 15px;
