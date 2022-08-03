@@ -188,7 +188,12 @@ a {
   justify-content: center;
   align-items: center;
   color: red;
-  margin-left: -40px;
+}
+
+.he-panier {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 @media screen and (max-width: 860px) {
@@ -197,8 +202,8 @@ a {
   }
 
   header {
-    padding: 10px;
-    gap: 60px;
+    padding: 8px;
+    gap: 40px;
   }
 
   .he-right {
@@ -207,9 +212,19 @@ a {
   }
 
   .he-title h2 {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 30px;
     text-align: end;
+  }
+
+  form {
+    display: none;
+  }
+
+  .he-container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
   }
 }
 
