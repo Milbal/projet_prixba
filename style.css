@@ -69,7 +69,7 @@ html {
 
 .ho-titre1 {
   color: #EA5455;
-  margin-left: 150px;
+  margin-left: 200px;
   margin-right: 282px;
   margin-bottom: 15px;
   font-weight: 700;
@@ -90,9 +90,12 @@ html {
   border-radius: 6px;
 }
 
+.ho-boxe {
+  display: none;
+}
+
 .ho-img {
   width: 120px;
-  border: 1px red solid;
   padding: 15px;
 }
 
@@ -115,20 +118,31 @@ p {
   text-align: right;
 }
 
+.ho-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ho-test {
+  height: 190px;
+  display: flex;
+  align-items: center;
+}
+
 .ho-arrow-left {
   width: 0;
-  height: 0;
-  margin: 60px;
+  display: flex;
   border-top: 16px solid transparent;
   border-bottom: 16px solid transparent;
   border-right: 20px solid #EA5455;
   border-radius: 6px;
+  align-items: center;
 }
 
 .ho-arrow-right {
   width: 0;
-  height: 0;
-  margin: 60px;
+  display: flex;
+  align-items: center;
   border-top: 16px solid transparent;
   border-bottom: 16px solid transparent;
   border-left: 20px solid #EA5455;
@@ -144,7 +158,7 @@ p {
 
 .ho-titre2 {
   color: #EA5455;
-  margin-left: 150px;
+  margin-left: 200px;
   margin-right: 282px;
   margin-bottom: 15px;
   margin-top: 50px;
@@ -177,6 +191,7 @@ p {
 
 .ho-offre a {
   font-size: 10px;
+  font-weight: 300;
   text-decoration: none;
   color: #FCFCFC;
 }
@@ -202,7 +217,7 @@ p {
 
 .ho-titre3 {
   color: #EA5455;
-  margin-left: 150px;
+  margin-left: 200px;
   margin-right: 282px;
   margin-bottom: 15px;
   margin-top: 50px;
@@ -230,24 +245,33 @@ p {
     margin-right: 25px;
   }
 
+  .ho-titre3, .ho-titre2, .ho-titre1 {
+    margin-left: 25px;
+    margin-right: 40px;
+  }
+
+  .ho-titre2 a {
+    font-weight: 700;
+  }
+
   .ho-divimg {
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     margin: 10px;
+    justify-content: center;
   }
 
   .ho-img {
-    width: 100%;
+    justify-content: center;
   }
 
-  .ho-box, .ho-delate {
+  .ho-delate {
     display: none;
   }
 
-  .ho-box {
-    background-image: url(../images/produits_prixba/bricolage_jardinage_secateur.png);
-    width: 300px;
+  .ho-boxe {
+    display: flex;
   }
 }
 
