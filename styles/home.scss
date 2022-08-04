@@ -1,1 +1,237 @@
 
+// ....................................1ère partie...........................................
+.ho-section{
+    margin: 70px 200px ;
+}
+.ho-divsection1{
+    display: flex;
+    align-items: center;
+}
+.ho-grille1{
+    display: flex;
+    justify-content: baseline;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.ho-titre{
+    color: #EA5455;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 17px;
+    margin-top: 60px;
+}
+
+.ho-box{
+
+    display: flex;
+    padding-bottom: 0%;
+
+
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+
+    background: #FCFCFC;
+
+    box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+.ho-boxe{
+    display: none;
+}
+
+.ho-img{
+    width: 120px;
+    padding: 15px;
+}
+
+.ho-divimg{
+    padding: 15px;
+}
+
+p{
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.ho-p1{
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.ho-p3{
+    color: rgba(66, 204, 88, 1);
+    text-align: right;
+
+}
+
+.ho-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ho-test{
+    height: 190px;
+    display: flex;
+    align-items: center;
+}
+.ho-arrow-left {
+    width: 0;
+    display: flex;
+    margin-left: -50px;
+
+    
+    border-top: 16px solid transparent;
+    border-bottom: 16px solid transparent;
+    
+    border-right: 20px solid  #EA5455;
+    border-radius: 6px;
+}
+
+
+.ho-arrow-right {
+    width: 0;
+    display: flex;
+    align-items: center;
+    border-top: 16px solid transparent;
+    border-bottom: 16px solid transparent;
+    border-left: 20px solid  #EA5455;
+    border-radius: 6px;
+    margin-left: 50px;
+   
+}
+
+
+// ....................................2ème partie...........................................
+
+.ho-lien1{
+    font-weight: 300;
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.ho-offre{
+ 
+    height: 120px;
+    width: 120px;
+    background: #2D4059;
+    border-radius: 10px;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ho-box2{
+    display: flex;
+    justify-content: baseline;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.ho-icon{
+    color: #FCFCFC;
+}
+
+.ho-offre a {
+    font-size: 10px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #FCFCFC;
+
+}
+
+// ----------------------------------3ème partie-----------------------------------
+
+.ho-grille3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ho-box3{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 0%;
+}
+
+.ho-img3{
+    width: 220px;
+    display: flex;
+}
+
+
+.ho-divimg1 a{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.ho-box3 a {
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    color:  #EA5455;
+    display: flex;
+    justify-content: center;
+}
+
+
+// ....................................Responsive HOME...........................................
+
+
+
+@media screen and (max-width:960px)
+{
+
+.ho-titre a{
+    font-weight: 700;
+
+}
+.ho-divimg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    justify-content: center;
+
+    }
+.ho-img{
+        
+    justify-content: center;
+    }
+
+}
+
+@media screen and (max-width:860px)
+{
+
+.ho-section{
+    margin-left: 25px;
+    margin-right: 25px;
+    }
+
+.ho-delate{
+    display: none;
+        }
+
+.ho-arrow-left {
+    margin-left: -20px; 
+        }
+.ho-arrow-right{
+    margin-left: 20px;
+    }
+.ho-boxe{
+    display: flex;
+    }
+.ho-img{   
+    justify-content: center;
+     }
+        
+}
