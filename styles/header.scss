@@ -19,6 +19,7 @@ header{
     justify-content: flex-end;
     h2{
         font-weight: bold;
+        font-size: 1.2rem;
     }
 }
 .he-text1{
@@ -63,6 +64,10 @@ header{
 .he-listing{
     display: flex;
     gap: 12px;
+    p{
+        font-weight: bold;
+        font-size: 0.7rem;
+    }
 }
 
 //creation de la Nav 
@@ -94,10 +99,25 @@ form{
     display: flex;
     align-items: center;
     min-height: 105px;
+    gap: 6px;
+    select, button{
+        border: none;
+        width: 80px;
+        font-size: 0.7rem;
+        font-weight: bold;
+        padding: 5px;
+    }
+    .search{
+        width: 180px;
+        border: none;
+    }
 }
+
+
 .he-container{
     display: flex;
     gap: 30px;
+    font-size: 0.85rem;
 }
 
 a{
@@ -122,6 +142,8 @@ a{
     justify-content: center;
     align-items: center;
     color: red;
+    font-size: 0.6rem;
+    font-weight: bold;
 }
 .he-panier{
    display: flex; 

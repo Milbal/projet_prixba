@@ -78,6 +78,7 @@ header {
 }
 .he-title h2 {
   font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .he-text1 {
@@ -124,6 +125,10 @@ header {
   display: flex;
   gap: 12px;
 }
+.he-listing p {
+  font-weight: bold;
+  font-size: 0.7rem;
+}
 
 nav {
   background-color: #2B2B2B;
@@ -156,11 +161,24 @@ form {
   display: flex;
   align-items: center;
   min-height: 105px;
+  gap: 6px;
+}
+form select, form button {
+  border: none;
+  width: 80px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding: 5px;
+}
+form .search {
+  width: 180px;
+  border: none;
 }
 
 .he-container {
   display: flex;
   gap: 30px;
+  font-size: 0.85rem;
 }
 
 a {
@@ -188,6 +206,8 @@ a {
   justify-content: center;
   align-items: center;
   color: red;
+  font-size: 0.6rem;
+  font-weight: bold;
 }
 
 .he-panier {
@@ -241,6 +261,7 @@ a {
   justify-content: baseline;
   flex-wrap: wrap;
   gap: 15px;
+  flex: 1;
 }
 
 .ho-titre {
@@ -254,14 +275,13 @@ a {
 
 .ho-box {
   display: flex;
-  padding-bottom: 0%;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
   background: #FCFCFC;
   box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.1);
   border-radius: 6px;
+  flex: 1;
 }
 
 .ho-boxe {
@@ -269,17 +289,20 @@ a {
 }
 
 .ho-img {
-  width: 120px;
-  padding: 15px;
+  display: flex;
+  justify-content: center;
+  min-width: 140px;
+  max-width: 180px;
+  flex: 1;
 }
 
-.ho-divimg {
-  padding: 15px;
-}
-
-p {
-  font-weight: bold;
-  font-size: 10px;
+.ho-status {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  min-width: 180px;
+  font-size: 0.8rem;
+  flex: 1;
 }
 
 .ho-p1 {
@@ -291,13 +314,16 @@ p {
   color: rgb(66, 204, 88);
   text-align: right;
 }
+.ho-p3 p {
+  font-size: 11px;
+}
 
 .ho-info {
   display: flex;
   justify-content: space-between;
 }
 
-.ho-test {
+.ho-arrow {
   height: 190px;
   display: flex;
   align-items: center;
@@ -321,7 +347,7 @@ p {
   border-bottom: 16px solid transparent;
   border-left: 20px solid #EA5455;
   border-radius: 6px;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .ho-lien1 {
@@ -466,7 +492,7 @@ h4 {
   font-weight: bold;
 }
 
-.fa-solid {
+.fo-icon {
   height: 35px;
   width: 35px;
   border-radius: 17.5px;
