@@ -1,0 +1,39 @@
+main{
+    display: flex;
+    gap: 70px;
+    justify-content: space-between;
+    padding: 60px 5% 260px 5%;
+}
+aside{
+    background-color: yellowgreen;
+}
+
+.cat-filters{
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+}
+
+#cat-show{
+    display: flex;
+    gap: 12px;
+}
+
+.cat-mainBlock{
+    display: flex;
+    gap: 50px;
+}
+
+.cat-products{
+    background-color: pink;
+}
+
+.cat-products__choice{
+    display: flex;
+}
+
+.cat-hammer{
+    width: 120px;
+    height: 100px;
+    object-fit: cover;
+}
