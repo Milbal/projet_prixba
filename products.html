@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/27eb28d590.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    
+
+    <title>Catalogue | Prixba</title>
+
+</head>
+
+<body>
+
+    <header>
+            <div class="he-logo">
+                <img src="./images/logo_color.png" alt="">
+                <p>PrixBa</p>
+            </div>
+            <div class="he-right">
+                <div class="he-title"> 
+                    <h2> Tous vos besoins à petit prix dans la métropole Lilloise </h2>
+                </div>    
+                <div class="he-liste">
+                    <ul>
+                        <li class="he-listing"><div class="he-number">1</div><p>Choix et commande des articles</p></li>
+                        <li class="he-listing"><div class="he-number">2</div><p>Retrait des articles</p></li>
+                        <li class="he-listing"><div class="he-number">3</div><p>Paiement des articles</p></li>
+                    </ul>            
+                </div>
+            </div>
+    
+      </header> 
+      
+      <nav>
+            
+            <form class="forme" action="traitement.php">
+                <select name="selection" id="select">
+                    <option value="Catégorie">Catégories</option>
+                </select>
+            
+                <input class="search" type="search">
+                <button class="bouton">Rechercher</button>
+            </form>
+
+            <div class="he-container">
+                <a href="#">Catalogue</a>
+                <a href="#">Questions fréquentes</a>
+            <div>
+                <a href="#">Connexion </a>
+                <select name="connexion" id="connexion"></select>
+            </div>
+                <div class="he-panier">
+                    <i class="fa-solid fa-cart-plus he-icon fa-xl"></i>
+                    <span class="he-cart">2</span>
+                </div>
+            </div>
+
+        </nav>
+
+        <main>
+
+            <aside>
+                <h2><i class="fa-solid fa-table-list cat-icon"></i> Catégories</h2>
+
+                <form method="post" action="traitement.php">
+                    <p>
+                        <input type="radio" name="tout" value="tout" id="cat-tout" /> <label for="tout">Tout</label><br />
+                        <input type="radio" name="bricolage" value="bricolage" id="cat-bricolage" /> <label for="medium15-25">Bricolage</label><br />
+                        <input type="radio" name="outillage" value="outillage" id="cat-outillage" /> <label for="outillage">Outillage</label><br />
+                        <input type="radio" name="multimedia" value="multimédia" id="cat-multimédia" /> <label for="multimédia">Multimédia</label></br>
+                        <input type="radio" name="entretien" value="entretien" id="cat-entretien" /> <label for="entretien">Entretien</label></br>
+
+                        <input type="radio" name="tout" value="tout" id="touts" /> <label for="cat-tout">Tout</label><br />
+                        <input type="radio" name="bricolage" value="bricolage" id="cat-bricolages" /> <label for="medium15-25">Bricolage</label><br />
+                        <input type="radio" name="outillage" value="outillage" id="cat-outillages" /> <label for="outillage">Outillage</label><br />
+                        <input type="radio" name="multimedia" value="multimédia" id="cat-multimédias" /> <label for="multimédia">Multimédia</label></br>
+                        <input type="radio" name="entretien" value="entretien" id="cat-entretiens" /> <label for="entretien">Entretien</label></br>
+                    </p>
+                 </form>
+            </aside>
+
+            <section id="cat-sec_top">
+                <div class="cat-filters">
+                    <div id="cat-show">
+                        <p>Affichage :</p>
+                        <i class="fa-light fa-table-cells-large"></i>
+                        <i class="fa-solid fa-pause cat-icon"></i>
+                    </div>
+                    <button id="cat-org">Trier les résultats</button>
+                </div>
+
+                <div class="cat-mainBlock">
+                    <img src="./images/produits_prixba/marteauStanley.jpg" alt="marteau clou" class="cat-hammer">
+                    <div class="cat-desc">
+                        <p>Marteau</p>
+                        <p>1€</p>
+                        <p>En stock</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="cat-sec_mid">
+                <div class="cat-card">
+                    <div class="cat-divimg" >
+                        <img class="cat-img" src="./images/produits_prixba/marteauStanley.jpg" alt="">
+                    </div>
+                    <div class="cat-status">
+                        <p class="cat-p1">Marteau</p>
+                        <div class="cat-info">
+                            <p class="cat-p2">1€</p>
+                            <p class="cat-p3">En stock</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cat-card">
+                    <div class="cat-divimg" >
+                        <img class="cat-img" src="./images/produits_prixba/marteauStanley.jpg" alt="">
+                    </div>
+                    <div class="cat-status">
+                        <p class="cat-p1">Marteau</p>
+                        <div class="cat-info">
+                            <p class="cat-p2">1€</p>
+                            <p class="cat-p3">En stock</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cat-card">
+                    <div class="cat-divimg" >
+                        <img class="cat-img" src="./images/produits_prixba/marteauStanley.jpg" alt="">
+                    </div>
+                    <div class="cat-status">
+                        <p class="cat-p1">Marteau</p>
+                        <div class="cat-info">
+                            <p class="cat-p2">1€</p>
+                            <p class="cat-p3">En stock</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div id="fo-top">
+                <div class="fo-top__steps">
+                    <i class="fa-solid fa-tag fa-lg fo-icon"></i>
+                    <div class="fo-top__steps-text">
+                        <h4>Articles à petits prix</h4>
+                        <p>La majorité des produits sont à 1&#8364;</p>
+                    </div>
+                </div>
+                <div class="fo-top__steps">
+                    <i class="fa-solid fa-money-bill-1 fa-lg fa-rotate-by fo-icon" style="--fa-rotate-angle: -45deg;"></i>
+                    <div class="fo-top__steps-text">
+                        <h4>Achats sans soucis</h4>
+                        <p>Chaque commande est fournie mains à mains</p>
+                    </div>
+                </div>
+                <div class="fo-top__steps">
+                    <i class="fa-solid fa-money-check-dollar fa-lg fo-icon"></i>
+                    <div class="fo-top__steps-text">
+                        <h4>Paiement sécurisé</h4>
+                        <p>Payez sans vous soucier lors du retrait</p>
+                    </div>
+                </div>
+                <div class="fo-top__steps">
+                    <i class="fa-solid fa-truck-fast fa-lg fo-icon"></i>
+                    <div class="fo-top__steps-text">
+                        <h4>Livraison Lilloise</h4>
+                        <p>Ce que vous voulez, préparé pour les Lillois et les alentours</p>
+                    </div>
+                </div>
+            </div>
+            <div id="fo-mid">
+                <div class="fo-block-items">
+                    <div class="fo-items">Accueil</div>
+                    <div class="fo-items">Catalogue</div>
+                    <div class="fo-items">Questions fréquentes</div>
+                </div>
+                <div class="fo-block-items">
+                    <div class="fo-items">Première visite</div>
+                    <div class="fo-items">Livraison retrait</div>
+                    <div class="fo-items">Contact</div>
+                </div>
+            </div>
+            <div id="fo-bottom">
+                <p>Mentions légales | Conditions générales d'utilisation et de vente</p>
+            </div>
+        </footer>
+
+</body>
+</html>
