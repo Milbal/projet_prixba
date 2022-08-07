@@ -71,6 +71,11 @@
 .ho-p1{
     font-weight: 700;
     padding-bottom: 10px;
+    color: black;
+}
+
+.ho-p2{
+    color: black;
 }
 
 .ho-p3{
@@ -149,6 +154,7 @@
     justify-content: baseline;
     flex-wrap: wrap;
     gap: 15px;
+    padding-right: 50px;
 }
 
 .ho-icon{
@@ -254,5 +260,9 @@
 .ho-img{   
     justify-content: center;
      }
+.ho-box2{
+    padding-right: 0;
+}
+
         
 }
