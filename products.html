@@ -65,8 +65,8 @@
             <aside>
                 <h2><i class="fa-solid fa-table-list cat-icon"></i> Catégories</h2>
 
-                <form method="post" action="traitement.php">
-                    <p>
+                <form method="post" action="traitement.php" class="cat-form">
+                    <p class="cat-formp">
                         <input type="radio" name="tout" value="tout" id="cat-tout" /> <label for="tout">Tout</label><br />
                         <input type="radio" name="bricolage" value="bricolage" id="cat-bricolage" /> <label for="medium15-25">Bricolage</label><br />
                         <input type="radio" name="outillage" value="outillage" id="cat-outillage" /> <label for="outillage">Outillage</label><br />
@@ -89,19 +89,24 @@
                     <div class="cat-filters">
                         <div id="cat-show">
                             <p>Affichage :</p>
-                            <i class="fa-solid fa-table-cells-large fa-2xl"></i>
-                            <i class="fa-solid fa-pause cat-icon-egal fa-rotate-90 fa-2xl"></i>
+                            <span class="cat-icon-line">
+                                <i class="fa-solid fa-table-cells-large fa-2xl cat-icon"></i>
+                                <i class="fa-solid fa-pause fa-rotate-90 fa-2xl cat-icon fa-icon-egal"></i>
+                            </span>
                         </div>
-                        <button id="cat-org">Trier les résultats</button>
+                        <button id="cat-org">
+                                <div class="btn-content">Trier les résultats</div>
+                                <select name="connexion" id="connexion"></select>
+                        </button>
                     </div>
                 </div>
 
                 <div class="cat-mainBlock">
                     <img src="./images/produits_prixba/marteauStanley.jpg" alt="marteau clou" class="cat-hammer">
                     <div class="cat-desc">
-                        <p>Marteau</p>
-                        <p>1€</p>
-                        <p>En stock</p>
+                        <p class="cat-p1">Marteau</p>
+                        <p class="cat-p2">1€</p>
+                        <p class="cat-green">En stock</p>
                     </div>
                 </div>
 
@@ -116,7 +121,7 @@
                             <p class="cat-p1">Marteau</p>
                             <div class="cat-info">
                                 <p class="cat-p2">1€</p>
-                                <p class="cat-p3">En stock</p>
+                                <p class="cat-green">En stock</p>
                             </div>
                         </div>
                     </div>
@@ -128,7 +133,7 @@
                             <p class="cat-p1">Marteau</p>
                             <div class="cat-info">
                                 <p class="cat-p2">1€</p>
-                                <p class="cat-p3">En stock</p>
+                                <p class="cat-green">En stock</p>
                             </div>
                         </div>
                     </div>
@@ -140,7 +145,7 @@
                             <p class="cat-p1">Marteau</p>
                             <div class="cat-info">
                                 <p class="cat-p2">1€</p>
-                                <p class="cat-p3">En stock</p>
+                                <p class="cat-green">En stock</p>
                             </div>
                         </div>
                     </div>
