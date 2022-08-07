@@ -2,7 +2,6 @@ main{
     display: flex;
     gap: 70px;
     justify-content: center;
-    // padding: 60px 5% 260px 5%;
     padding: 100px 10% 320px 10%;
     flex-wrap: wrap;
 }
@@ -21,8 +20,6 @@ aside{
     display: flex;
     gap: 30px;
     flex-direction: column;
-    // flex-wrap: wrap;
-    // min-width: 600px;
     flex: 1;
 }
 
@@ -86,6 +83,7 @@ aside{
 
 .cat-products__choice{
     display: flex;
+    flex-wrap: wrap;
     gap: 15px;
 }
 
@@ -114,6 +112,9 @@ aside{
 
 @media screen and (max-width:970px) {
 
+    main{
+        padding: 25px;
+    }
     .cat-formp{
         display: flex;
         flex-wrap: wrap;
@@ -124,8 +125,11 @@ aside{
 
 @media screen and (max-width:590px) {
 
-    .cat-formp{
+    main{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .cat-form, .cat-formp, #cat-show{
         display: none;
     }
-    
 }
