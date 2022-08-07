@@ -8,7 +8,6 @@ main{
 aside{
     min-width: 120px;
     flex-wrap: nowrap;
-    background-color: yellowgreen;
 }
 
 .cat-form{
@@ -16,7 +15,6 @@ aside{
 }
 
 .cat-products{
-    background-color: pink;
     display: flex;
     gap: 30px;
     flex-direction: column;
@@ -25,9 +23,7 @@ aside{
 
 .cat-filters{
     display: flex;
-    justify-content: space-between;
-    background-color: bisque;
-    
+    justify-content: space-between;    
 }
 
 #cat-show{
@@ -71,6 +67,11 @@ aside{
     box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
     flex: 1;
+}
+.cat-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 .cat-info{
     display: flex;
@@ -131,5 +132,8 @@ aside{
     }
     .cat-form, .cat-formp, #cat-show{
         display: none;
+    }
+    .cat-mainBlock{
+        gap: 15px;
     }
 }
