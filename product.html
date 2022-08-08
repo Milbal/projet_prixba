@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/27eb28d590.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    
+
+    <title>Product prixba</title>
+
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html" class="he-logo">
+                    <img src="./images/logo_color.png" alt="">
+                    <p>PrixBa</p>
+        </a>
+        <div class="he-right">
+            <div class="he-title"> 
+                    <h2> Tous vos besoins à petit prix dans la métropole Lilloise </h2>
+            </div>    
+            <div class="he-liste">
+                <ul>
+                    <li class="he-listing"><div class="he-number">1</div><p>Choix et commande des articles</p></li>
+                    <li class="he-listing"><div class="he-number">2</div><p>Retrait des articles</p></li>
+                    <li class="he-listing"><div class="he-number">3</div><p>Paiement des articles</p></li>
+                </ul>            
+            </div>
+        </div>
+    
+      </header> 
+      
+      <nav>
+            
+            <form class="forme" action="traitement.php">
+                <select name="selection" id="select">
+                    <option value="Catégorie">Catégories</option>
+                </select>
+            
+                <input class="search" type="search">
+                <button class="bouton">Rechercher</button>
+            </form>
+
+            <div class="he-container">
+                <a href="#">Catalogue</a>
+                <a href="#">Questions fréquentes</a>
+            <div>
+                <a href="#">Connexion </a>
+                <select name="connexion" id="connexion"></select>
+            </div>
+                <div class="he-panier">
+                    <i class="fa-solid fa-cart-plus he-icon fa-xl"></i>
+                    <span class="he-cart">2</span>
+                </div>
+            </div>
+
+        </nav>
+
+        <!--...................PAGE PRODUCT..........................-->
+
+<section class="p-section">
+    <div class="p-produit">
+        <div class="p-boximg">
+            <div class="p-box5" >
+                <img class="p-img1" src="./images/produits_prixba/jeux_lego.png" alt="">  
+            </div>
+            <div class="p-produit1">
+                <div class="p-copie" >
+                    <img class="p-img2" src="./images/produits_prixba/jeux_lego.png" alt="">
+                </div>
+                <div class="p-copie" >
+                    <img class="p-img2" src="./images/produits_prixba/jeux_lego.png" alt="">
+                </div>
+            </div>
+        </div>
+        
+        <div class="p-text">
+            <p>Lego</p> <br>
+            <p>1€</p> <br>
+            <p class="p-lorem">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat sint cum excepturi quidem magni qui temporibus doloremque molestiae.</p><br>
+
+            <div class="p-ajout">
+                <div class="p-p">
+                    <p>-</p>
+                    <p class="p-p1"> 2 </p>
+                    <p>+</p>
+                </div>
+                <button class="p-button">Ajout au panier</button>
+                <i class="fa-regular fa-heart"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+        <footer>
+            <div id="fo-top">
+                <div class="fo-top__steps">
+                    <i class="fa-solid fa-tag fa-lg fo-icon"></i>
+                    <div class="fo-top__steps-text">
+                        <h4>Articles à petits prix</h4>
+                        <p>La majorité des produits sont à 1&#8364;</p>
+                    </div>
+                </div>
+                <div class="fo-top__steps">
+                    <i class="fa-solid fa-money-bill-1 fa-lg fa-rotate-by fo-icon" style="--fa-rotate-angle: -45deg;"></i>
+                    <div class="fo-top__steps-text">
+                        <h4>Achats sans soucis</h4>
+                        <p>Chaque commande est fournie mains à mains</p>
+                    </div>
+                </div>
+                <div class="fo-top__steps">
+                    <i class="fa-solid fa-money-check-dollar fa-lg fo-icon"></i>
+                    <div class="fo-top__steps-text">
+                        <h4>Paiement sécurisé</h4>
+                        <p>Payez sans vous soucier lors du retrait</p>
+                    </div>
+                </div>
+                <div class="fo-top__steps">
+                    <i class="fa-solid fa-truck-fast fa-lg fo-icon"></i>
+                    <div class="fo-top__steps-text">
+                        <h4>Livraison Lilloise</h4>
+                        <p>Ce que vous voulez, préparé pour les Lillois et les alentours</p>
+                    </div>
+                </div>
+            </div>
+            <div id="fo-mid">
+                <div class="fo-block-items">
+                    <div class="fo-items">Accueil</div>
+                    <div class="fo-items">Catalogue</div>
+                    <div class="fo-items">Questions fréquentes</div>
+                </div>
+                <div class="fo-block-items">
+                    <div class="fo-items">Première visite</div>
+                    <div class="fo-items">Livraison retrait</div>
+                    <div class="fo-items">Contact</div>
+                </div>
+            </div>
+            <div id="fo-bottom">
+                <p>Mentions légales | Conditions générales d'utilisation et de vente</p>
+            </div>
+        </footer>
+
+</body>
+</html>
