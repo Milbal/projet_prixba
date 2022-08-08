@@ -1,0 +1,144 @@
+.he-logo{
+    color: black;
+}
+main{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    padding: 100px 10% 320px 10%;
+    flex-wrap: wrap;
+}
+aside{
+    min-width: 120px;
+    flex-wrap: nowrap;
+}
+
+.cat-form{
+    display: flex;
+}
+
+.cat-products{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    flex: 1;
+}
+
+.cat-filters{
+    display: flex;
+    justify-content: space-between;    
+}
+
+#cat-show{
+    display: flex;
+    gap: 12px;
+}
+
+#cat-org{
+    display: flex;
+    align-items: center;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    padding: 10px;
+    background-color: #EA5455;
+}
+
+.cat-icon-line{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    min-width: 60px;
+}
+
+.cat-mainBlock{
+    display: flex;
+    gap: 50px;
+    padding: 15px;
+    background: #FCFCFC;
+    box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    flex: 1;
+}
+
+.cat-card{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background: #FCFCFC;
+    box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    flex: 1;
+}
+.cat-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.cat-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.cat-img{
+    width: 150px;
+}
+
+.cat-products__choice{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.cat-hammer{
+    width: 120px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.cat-p1{
+    font-weight: bold;
+    font-size: 11px;
+    color: black;
+}
+
+.cat-p2{
+    font-size: 11px;
+    color: black;
+}
+
+.cat-green{
+    color: rgba(66, 204, 88, 1);
+    font-size: 11px;
+}
+
+
+
+
+@media screen and (max-width:970px) {
+
+    main{
+        padding: 25px;
+    }
+    .cat-formp{
+        display: flex;
+        flex-wrap: wrap;
+        line-height: 30px;
+    }
+    
+}
+
+@media screen and (max-width:590px) {
+
+    main{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .cat-form, .cat-formp, #cat-show{
+        display: none;
+    }
+    .cat-mainBlock{
+        gap: 15px;
+    }
+}
