@@ -480,6 +480,10 @@ a {
     justify-content: center;
   }
 }
+.he-logo {
+  color: black;
+}
+
 main {
   display: flex;
   gap: 70px;
