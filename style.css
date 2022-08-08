@@ -480,6 +480,10 @@ a {
     justify-content: center;
   }
 }
+.he-logo {
+  color: black;
+}
+
 .p-section {
   margin: 70px 200px;
 }
@@ -520,12 +524,11 @@ a {
 .p-lorem {
   color: black;
   font-weight: 300;
+  line-height: 30px;
 }
 
 .p-produit1 {
   display: flex;
-  justify-content: center;
-  left: 0;
   padding-right: 50px;
 }
 
@@ -537,11 +540,38 @@ a {
 
 .p-ajout {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 300px;
   padding: 20px;
 }
 
-.p-ajout button {
+.p-button {
+  background-color: #EA5455;
+  border-radius: 7px;
+  border: none;
+  color: #FCFCFC;
+  height: 30px;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+}
+
+.p-copie {
+  padding: 15px;
+  display: flex;
+}
+
+.p-p {
+  display: flex;
+}
+
+.p-p1 {
   color: #EA5455;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 0 13px;
+  margin: 0 10px;
 }
 
 #fo-top {
