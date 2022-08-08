@@ -92,7 +92,7 @@
                         <div id="cat-show">
                             <p>Affichage :</p>
                             <span class="cat-icon-line">
-                                <i class="fa-solid fa-table-cells-large fa-2xl cat-icon"></i>
+                                <i class="fa-solid fa-table-cells-large fa-2xl cat-icon fa-icon-cells"></i>
                                 <i class="fa-solid fa-pause fa-rotate-90 fa-2xl cat-icon fa-icon-egal"></i>
                             </span>
                         </div>
@@ -205,6 +205,16 @@
                 <p>Mentions légales | Conditions générales d'utilisation et de vente</p>
             </div>
         </footer>
+
+
+
+        <script>
+            window.onload = function() {
+                document.querySelector(".fa-icon-cells").addEventListener('click', function(){
+                    document.querySelector(".cat-mainBlock").classList.toggle("disparition");
+                })
+            }
+        </script>
 
 </body>
 </html>

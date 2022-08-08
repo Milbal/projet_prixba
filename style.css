@@ -609,6 +609,10 @@ aside {
   font-size: 11px;
 }
 
+.disparition {
+  display: none;
+}
+
 @media screen and (max-width: 970px) {
   main {
     padding: 25px;
