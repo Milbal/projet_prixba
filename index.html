@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/27eb28d590.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    
+
+    <title>Accueil | Prixba</title>
+
+</head>
+
+<body>
+
+    <header>
+            <div class="he-logo">
+                <img src="./images/logo_color.png" alt="">
+                <p>PrixBa</p>
+            </div>
+            <div class="he-right">
+                <div class="he-title"> 
+                    <h2> Tous vos besoins à petit prix dans la métropole Lilloise </h2>
+                </div>    
+                <div class="he-liste">
+                    <ul>
+                        <li class="he-listing"><div class="he-number">1</div><p>Choix et commande des articles</p></li>
+                        <li class="he-listing"><div class="he-number">2</div><p>Retrait des articles</p></li>
+                        <li class="he-listing"><div class="he-number">3</div><p>Paiement des articles</p></li>
+                    </ul>            
+                </div>
+            </div>
+    
+      </header> 
+      
+      <nav>
+            
+            <form class="forme" action="traitement.php">
+                <select name="selection" id="select">
+                    <option value="Catégorie">Catégories</option>
+                </select>
+            
+                <input class="search" type="search">
+                <button class="bouton">Rechercher</button>
+            </form>
+
+            <div class="he-container">
+                <a href="products.html">Catalogue</a>
+                <a href="#">Questions fréquentes</a>
+            <div>
+                <a href="#">Connexion </a>
+                <select name="connexion" id="connexion"></select>
+            </div>
+                <div class="he-panier">
+                    <i class="fa-solid fa-cart-plus he-icon fa-xl"></i>
+                    <span class="he-cart">2</span>
+                </div>
+            </div>
+
+        </nav>
+
+<!-- .............................................HOME.................................
+        <section class="ho-section">
+<!--.............................1ère partie........................-->
+            <h2 class="ho-titre">Meilleures ventes</h2>
+            <div class="ho-divsection1">
+                    <div class="ho-arrow">
+                        <div class="ho-arrow-left"></div>
+                    </div>
+
+                <div class="ho-grille1">
+                    <a href="products.html" class="ho-box ho-delate">
+                        <!-- <div class="ho-box ho-delate"> -->
+                            <div class="ho-divimg" >
+                                <img class="ho-img" src="./images/produits_prixba/bricolage_marteau.png" alt="">
+                            </div>
+                            <div class="ho-status">
+                                <p class="ho-p1">Marteau</p>
+                                <div class="ho-info">
+                                    <p class="ho-p2">1€</p>
+                                    <p class="ho-p3">En stock</p>
+                                </div>
+                            </div>
+                        <!-- </div> -->
+                    </a>
+                    <a href="products.html" class="ho-box ho-delate">
+                        <!-- <div class="ho-box ho-delate"> -->
+                            <div class="ho-divimg" >
+                                <img class="ho-img" src="./images/produits_prixba/bricolage_marteau.png" alt="">
+                            </div>
+                            <div class="ho-status">
+                                <p class="ho-p1">Marteau</p>
+                                <div class="ho-info">
+                                    <p class="ho-p2">1€</p>
+                                    <p class="ho-p3">En stock</p>
+                                </div>
+                            </div>
+                        <!-- </div> -->
+                    </a>
+                    <a href="products.html" class="ho-box ho-delate">
+                        <!-- <div class="ho-box ho-delate"> -->
+                            <div class="ho-divimg" >
+                                <img class="ho-img" src="./images/produits_prixba/bricolage_marteau.png" alt="">
+                            </div>
+                            <div class="ho-status">
+                                <p class="ho-p1">Marteau</p>
+                                <div class="ho-info">
+                                    <p class="ho-p2">1€</p>
+                                    <p class="ho-p3">En stock</p>
+                                </div>
+                            </div>
+                        <!-- </div> -->
+                    </a>
+                    <a href="products.html" class="ho-box ho-delate">
+                        <!-- <div class="ho-box ho-delate"> -->
+                            <div class="ho-divimg" >
+                                <img class="ho-img" src="./images/produits_prixba/bricolage_marteau.png" alt="">
+                            </div>
+                            <div class="ho-status">
+                                <p class="ho-p1">Marteau</p>
+                                <div class="ho-info">
+                                    <p class="ho-p2">1€</p>
+                                    <p class="ho-p3">En stock</p>
+                                </div>
+                            </div>
+                        <!-- </div> -->
+                    </a>
+                    <a href="products.html" class="ho-boxe ho-delate">
+                        <div class="ho-boxe">
+                            <div class="ho-divimg">
+                                <img class="ho-img" src="./images/produits_prixba/bricolage_jardinage_secateur.png" alt="">
+                            </div>
+                            <div class="ho-status">
+                                <p class="ho-p1">Secateur</p>
+                                <div class="ho-info">
+                                    <p class="ho-p2">1€</p>
+                                    <p class="ho-p3">En stock</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                    <div class="ho-arrow">
+                        <div class="ho-arrow-right"></div>
+                    </div>
+            </div>
+
+        <!--...............2ème partie.............-->
+            <div>
+                <h2 class="ho-titre">Découvrez nos offres par catégories
+                    <a class="ho-lien1" href="#">Voir tout</a>
+                </h2> 
+            </div>
+
+            <div class="ho-box2">   
+                <div class="ho-offre ho-delate">
+                    <div class="ho-offre-shape">
+                        <i class="ho-icon fa-solid fa-screwdriver-wrench fa-2xl" ></i>
+                        <a href="#">Bricolage</a>
+                    </div>
+                </div>
+                <div class="ho-offre ho-delate">
+                    <div class="ho-offre-shape">
+                        <i class="ho-icon fa-solid fa-lightbulb fa-2xl"></i>
+                        <a href="#">Multimédia</a>
+                    </div>
+                </div>
+                <div class="ho-offre ho-delate">
+                    <div class="ho-offre-shape">
+                        <i class="ho-icon fa-solid fa-utensils fa-2xl"></i>
+                        <a href="#">Cuisine</a>
+                    </div>
+                </div>
+                <div class="ho-offre ho-delate">
+                    <div class="ho-offre-shape">
+                        <i class="ho-icon fa-solid fa-lightbulb fa-2xl"></i>
+                        <a href="#">Multimédia</a>
+                    </div>
+                </div>
+                <div class="ho-offre">
+                    <div class="ho-offre-shape">
+                        <i class="ho-icon fa-solid fa-lightbulb fa-2xl"></i>
+                        <a href="#">Multimédia</a>
+                    </div>
+                </div>
+                <div class="ho-offre">
+                    <div class="ho-offre-shape">
+                        <i class="ho-icon fa-solid fa-lightbulb fa-2xl"></i>
+                        <a href="#">Multimédia</a>
+                    </div>
+                </div>
+                <div class="ho-offre ">
+                    <div class="ho-offre-shape">
+                        <i class="ho-icon fa-solid fa-lightbulb fa-2xl"></i>
+                        <a href="#">Multimédia</a>
+                    </div>
+                </div>
+                <div class="ho-offre">
+                    <div class="ho-offre-shape">
+                        <i class="ho-icon fa-solid fa-lightbulb fa-2xl"></i>
+                        <a href="#">Multimédia</a>
+                    </div>
+                </div>
+                <div class="ho-offre">
+                    <div class="ho-offre-shape">
+                        <i class="ho-icon fa-solid fa-lightbulb fa-2xl"></i>
+                        <a href="#">Multimédia</a>
+                    </div>
+                </div>
+                <div class="ho-offre">
+                    <div class="ho-offre-shape">
+                        <i class="ho-icon fa-solid fa-lightbulb fa-2xl"></i>
+                        <a href="#">Multimédia</a>
+                    </div>
+                </div>
+                <div class="ho-offre">
+                    <div class="ho-offre-shape">
+                        <i class="ho-icon fa-solid fa-lightbulb fa-2xl"></i>
+                        <a href="#">Multimédia</a>
+                    </div>
+                </div>
+                <div class="ho-offre">
+                    <div class="ho-offre-shape">
+                        <i class="ho-icon fa-solid fa-lightbulb fa-2xl"></i>
+                        <a href="#">Multimédia</a>
+                    </div>
+                </div>
+            </div>
+
+        <!--.............3ème partie................-->
+
+            <h2 class="ho-titre">Avoir le choix chez Prix Marché</h2>
+ 
+            <div class="ho-grille3">
+                <div class="ho-box3">
+                    <img class="ho-img3" src="./images/images_prixba/mini/victoria-kubiaki-t0Aio60jD4Q-unsplash.jpg" alt="">
+                    <a href="#">Je choisis</a>
+                </div>
+                <div class="ho-box3">
+                    <img class="ho-img3" src="./images/images_prixba/mini/bench-accounting-MGaFENpDCsw-unsplash.jpg" alt="">
+                    <a href="#">Je choisis</a>
+                </div>
+                <div class="ho-box3">
+                    <img class="ho-img3" src="./images/images_prixba/mini/christin-hume-Hcfwew744z4-unsplash.jpg" alt="">
+                    <a href="#">Je choisis</a>
+                </div>
+            </div>
+
+        </section> -->
+
+        <footer>
+            <div id="fo-top">
+                <div class="fo-top__steps">
+                    <i class="fa-solid fa-tag fa-lg fo-icon"></i>
+                    <div class="fo-top__steps-text">
+                        <h4>Articles à petits prix</h4>
+                        <p>La majorité des produits sont à 1&#8364;</p>
+                    </div>
+                </div>
+                <div class="fo-top__steps">
+                    <i class="fa-solid fa-money-bill-1 fa-lg fa-rotate-by fo-icon" style="--fa-rotate-angle: -45deg;"></i>
+                    <div class="fo-top__steps-text">
+                        <h4>Achats sans soucis</h4>
+                        <p>Chaque commande est fournie mains à mains</p>
+                    </div>
+                </div>
+                <div class="fo-top__steps">
+                    <i class="fa-solid fa-money-check-dollar fa-lg fo-icon"></i>
+                    <div class="fo-top__steps-text">
+                        <h4>Paiement sécurisé</h4>
+                        <p>Payez sans vous soucier lors du retrait</p>
+                    </div>
+                </div>
+                <div class="fo-top__steps">
+                    <i class="fa-solid fa-truck-fast fa-lg fo-icon"></i>
+                    <div class="fo-top__steps-text">
+                        <h4>Livraison Lilloise</h4>
+                        <p>Ce que vous voulez, préparé pour les Lillois et les alentours</p>
+                    </div>
+                </div>
+            </div>
+            <div id="fo-mid">
+                <div class="fo-block-items">
+                    <div class="fo-items">Accueil</div>
+                    <div class="fo-items">Catalogue</div>
+                    <div class="fo-items">Questions fréquentes</div>
+                </div>
+                <div class="fo-block-items">
+                    <div class="fo-items">Première visite</div>
+                    <div class="fo-items">Livraison retrait</div>
+                    <div class="fo-items">Contact</div>
+                </div>
+            </div>
+            <div id="fo-bottom">
+                <p>Mentions légales | Conditions générales d'utilisation et de vente</p>
+            </div>
+        </footer>
+
+</body>
+</html>

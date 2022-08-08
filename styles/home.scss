@@ -1,0 +1,269 @@
+
+// ....................................1ère partie...........................................
+.ho-section{
+    margin: 70px 200px ;
+}
+.ho-divsection1{
+    display: flex;
+    align-items: center;
+}
+.ho-grille1{
+    display: flex;
+    justify-content: baseline;
+    flex-wrap: wrap;
+    gap: 15px;
+    flex: 1;
+}
+
+.ho-titre{
+    color: #EA5455;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 17px;
+    margin-top: 60px;
+}
+
+.ho-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    background: #FCFCFC;
+    box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    flex: 1;
+}
+
+.ho-boxe{
+    display: none;
+}
+
+// .ho-divimg{
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     min-width: 120px;
+//     max-width: 300px;
+//     // padding: 15px;
+//     background-color: aqua;
+//     flex: 1;
+// }
+
+.ho-img{
+    display: flex;
+    justify-content: center;
+    min-width: 140px;
+    max-width: 180px;
+    flex: 1;
+}
+
+.ho-status{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    min-width: 180px;
+    font-size: 0.8rem;
+    flex: 1;
+    margin-top: 5px;
+}
+
+.ho-p1{
+    font-weight: 700;
+    padding-bottom: 10px;
+    color: black;
+}
+
+.ho-p2{
+    color: black;
+}
+
+.ho-p3{
+    color: rgba(66, 204, 88, 1);
+    text-align: right;
+    p{
+        font-size: 11px;
+    }
+}
+
+.ho-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ho-arrow{
+    height: 190px;
+    display: flex;
+    align-items: center;
+}
+.ho-arrow-left {
+    width: 0;
+    display: flex;
+    margin-left: -50px;
+    border-top: 16px solid transparent;
+    border-bottom: 16px solid transparent;
+    border-right: 20px solid  #EA5455;
+    border-radius: 6px;
+}
+
+
+.ho-arrow-right {
+    width: 0;
+    display: flex;
+    align-items: center;
+    border-top: 16px solid transparent;
+    border-bottom: 16px solid transparent;
+    border-left: 20px solid  #EA5455;
+    border-radius: 6px;
+    margin-left: 30px;
+   
+}
+
+
+// ....................................2ème partie...........................................
+
+.ho-lien1{
+    font-weight:400;
+    font-size: 0.75rem;
+    text-decoration: none;
+    color: black;
+}
+
+
+.ho-offre{
+    background: #2D4059;
+    border-radius: 10px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex: 1;
+}
+
+.ho-offre-shape{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 110px;
+    min-height: 110px;
+}
+
+.ho-box2{
+    display: flex;
+    justify-content: baseline;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-right: 50px;
+}
+
+.ho-icon{
+    color: #FCFCFC;
+    line-height: 0;
+}
+
+.ho-offre a {
+    font-size: 10px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #FCFCFC;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+// ----------------------------------3ème partie-----------------------------------
+
+.ho-grille3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    flex: 1;
+    padding-right: 50px;
+}
+.ho-box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    // flex-wrap: wrap;
+    // flex: 1;
+    .ho-img3{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 220px;
+        max-width: 300px;
+        flex: 1;
+    }
+    a{
+        margin-top: 10px;
+        margin-bottom: 15px;
+        font-size: 15px;
+        font-weight: 700;
+        text-decoration: none;
+        color:  #EA5455;
+        flex: 1;
+
+    }
+}
+
+
+
+
+
+// ....................................Responsive HOME...........................................
+
+
+
+@media screen and (max-width:960px)
+{
+.ho-section{
+    margin-left: 25px;
+    margin-right: 25px;
+    }
+
+.ho-titre a{
+    font-weight: 700;
+
+}
+.ho-divimg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    justify-content: center;
+
+    }
+.ho-img{
+    display: flex;
+    justify-content: center;
+    }
+}
+
+@media screen and (max-width:860px)
+{
+.ho-delate{
+    display: none;
+        }
+.ho-grille1{
+    justify-content: center;
+}
+.ho-arrow-left {
+    margin-left: -20px; 
+        }
+.ho-arrow-right{
+    margin-left: 20px;
+    }
+.ho-boxe{
+    display: flex;
+    flex-direction: column;
+    }
+.ho-img{   
+    justify-content: center;
+     }
+.ho-box2, .ho-box3{
+    padding-right: 0;
+}
+
+        
+}
