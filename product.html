@@ -66,7 +66,7 @@
     <div class="p-produit">
         <div class="p-boximg">
             <div class="p-box5" >
-                <img class="p-img1" src="./images/produits_prixba/jeux_lego.png" alt="">  
+                <img class="p-img1" src="./images/produits_prixba/bricolage_marteau.png" alt="">  
             </div>
             <div class="p-produit1">
                 <div class="p-copie" >
@@ -147,6 +147,16 @@
                 <p>Mentions légales | Conditions générales d'utilisation et de vente</p>
             </div>
         </footer>
+
+        <script>
+            window.onload = function(){
+                document.querySelector(".p-copie").addEventListener('click', function(){
+				document.querySelector(".p-box5").innerHTML = '<img class="p-img2" src="./images/produits_prixba/jeux_lego.png" alt="lego" style ="width: 220px;">';
+                document.querySelector(".p-copie").innerHTML = '<img class="p-img1" src="./images/produits_prixba/bricolage_marteau.png" alt="" style ="width: 50px;">';
+			})
+			
+            }
+        </script>
 
 </body>
 </html>
