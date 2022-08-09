@@ -588,7 +588,7 @@ aside {
 }
 
 .cat-hammer {
-  width: 120px;
+  width: 150px;
   height: 100px;
   object-fit: cover;
 }
@@ -611,6 +611,10 @@ aside {
 
 .disparition {
   display: none;
+}
+
+.cat-flex {
+  display: flex;
 }
 
 @media screen and (max-width: 970px) {

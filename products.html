@@ -210,9 +210,45 @@
 
         <script>
             window.onload = function() {
+
                 document.querySelector(".fa-icon-cells").addEventListener('click', function(){
                     document.querySelector(".cat-mainBlock").classList.toggle("disparition");
                 })
+
+                
+                document.querySelector(".fa-icon-egal").addEventListener('click', function(){
+
+                    // document.querySelectorAll(".cat-products__choice").style.display = 'none';
+                    var bye = document.querySelectorAll(".cat-products__choice");
+                    for(var i=0; i<bye.length; i++){
+					bye[i].style.display = 'block';
+                    }
+
+                    var blockList = document.querySelectorAll(".cat-info");
+                    for(var j=0; j<blockList.length; j++){
+					blockList[j].style.flexDirection = 'column';
+					blockList[j].style.gap = '15px';                    
+                    }
+
+                    var textCard = document.querySelectorAll(".cat-card");
+                    for(var k=0; k<textCard.length; k++){
+					textCard[k].style.marginBottom = '30px'; 
+                    textCard[k].style.flexDirection = "row"; 
+                    textCard[k].style.gap = "50px"; 
+                    }
+
+				})
+ 
+
+
+                
+
+                
+
+
+
+
+
             }
         </script>
 
