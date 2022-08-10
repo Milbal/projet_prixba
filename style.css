@@ -66,7 +66,7 @@ header {
 }
 
 .he-logo {
-  width: 50px;
+  width: 50 px;
   height: 59px;
   display: flex;
   align-items: center;
@@ -92,7 +92,7 @@ header {
 }
 
 .he-texte-header {
-  font-weight: bold;
+  font-weight: 10px;
   margin-left: 300px;
 }
 
@@ -513,7 +513,6 @@ a {
 .p-img1 {
   display: flex;
   max-width: 220px;
-  max-width: 300px;
   flex: 1;
   justify-content: center;
 }
@@ -690,7 +689,7 @@ aside {
 }
 
 .cat-hammer {
-  width: 120px;
+  width: 150px;
   height: 100px;
   object-fit: cover;
 }
@@ -709,6 +708,14 @@ aside {
 .cat-green {
   color: rgb(66, 204, 88);
   font-size: 11px;
+}
+
+.disparition {
+  display: none;
+}
+
+.cat-flex {
+  display: flex;
 }
 
 @media screen and (max-width: 970px) {

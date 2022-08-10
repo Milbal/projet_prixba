@@ -92,7 +92,7 @@ aside{
 }
 
 .cat-hammer{
-    width: 120px;
+    width: 150px;
     height: 100px;
     object-fit: cover;
 }
@@ -111,6 +111,14 @@ aside{
 .cat-green{
     color: rgba(66, 204, 88, 1);
     font-size: 11px;
+}
+
+.disparition{
+    display: none;
+}
+
+.cat-flex{
+    display: flex;
 }
 
 

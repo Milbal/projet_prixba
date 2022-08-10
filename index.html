@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/27eb28d590.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+
+    
     
 
     <title>Accueil | Prixba</title>
@@ -76,7 +79,7 @@
                                 <img class="ho-img" src="./images/produits_prixba/bricolage_marteau.png" alt="">
                             </div>
                             <div class="ho-status">
-                                <p class="ho-p1">Marteau</p>
+                                <p class="ho-p1">Martau</p>
                                 <div class="ho-info">
                                     <p class="ho-p2">1€</p>
                                     <p class="ho-p3">En stock</p>
@@ -114,7 +117,7 @@
                     </a>
                     <a href="products.html" class="ho-box ho-delate">
                         <!-- <div class="ho-box ho-delate"> -->
-                            <div class="ho-divimg" >
+                            <div class="ho-divimg ho-js" >
                                 <img class="ho-img" src="./images/produits_prixba/bricolage_marteau.png" alt="">
                             </div>
                             <div class="ho-status">
@@ -247,7 +250,7 @@
                 </div>
             </div>
 
-        </section> -->
+        </section>
 
         <footer>
             <div id="fo-top">
@@ -296,6 +299,57 @@
                 <p>Mentions légales | Conditions générales d'utilisation et de vente</p>
             </div>
         </footer>
+
+
+    <script>
+
+        var i = 0;
+        var m = 0;
+$('.ho-arrow-right').click(function() {
+
+            console.log('.ho-arrow-right')
+            i += 1;
+            if (i >4){
+                i=1;
+                       
+                console.log(i);
+            }
+            $('.ho-img').attr('src', './images_carrousel/img'+i+'.png');
+
+            
+        //     for (var m=1; m<5; m++) {
+        //     $('.ho-box').attr('src', './images_carrousel/img'+i+'.png');
+        //     console.log(m);
+        //     // $(carousel) = $(m);
+        // }
+
+        })
+   
+
+var u = 0;
+
+$('.ho-arrow-left').click(function() {
+    console.log('.ho-arrow-left')
+    u -= 1;
+    if (u<1){
+        u=4;
+    }
+    
+    $('.ho-img').attr('src', './images_carrousel/img'+u+'.png');
+
+    // for (var m=1; m<1; m--) {
+    //         $('.ho-img').attr('src', './images_carrousel/img'+i+'.png');
+    //         console.log(m);
+    //         // $(carousel) = $(m);
+    //     }
+})
+
+
+
+
+    </script>
+   
+
 
 </body>
 </html>
