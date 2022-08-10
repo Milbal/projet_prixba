@@ -117,7 +117,7 @@
 
 
                 <div class="cat-products__choice">
-                    <a href="product.html "class="cat-card">
+                    <a href="product.html "class="cat-card cat-flex">
                         <div class="cat-divimg" >
                             <img class="cat-img" src="./images/produits_prixba/marteauStanley.jpg" alt="marteau clou" class="cat-hammer">
                         </div>
@@ -129,7 +129,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="product.html "class="cat-card">
+                    <a href="product.html "class="cat-card cat-flex">
                         <div class="cat-divimg" >
                             <img class="cat-img" src="./images/produits_prixba/marteauStanley.jpg" alt="marteau clou" class="cat-hammer">
                         </div>
@@ -141,7 +141,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="product.html "class="cat-card">
+                    <a href="product.html "class="cat-card cat-flex">
                         <div class="cat-divimg" >
                             <img class="cat-img" src="./images/produits_prixba/marteauStanley.jpg" alt="marteau clou" class="cat-hammer">
                         </div>
@@ -211,14 +211,18 @@
         <script>
             window.onload = function() {
 
+                // Première icone à cellule avec fonction disparition
+
                 document.querySelector(".fa-icon-cells").addEventListener('click', function(){
                     document.querySelector(".cat-mainBlock").classList.toggle("disparition");
                 })
 
-                
-                document.querySelector(".fa-icon-egal").addEventListener('click', function(){
 
-                    // document.querySelectorAll(".cat-products__choice").style.display = 'none';
+
+                //Deuxième icone pour liste
+
+               document.querySelector(".fa-icon-egal").addEventListener('click', function(){
+
                     var bye = document.querySelectorAll(".cat-products__choice");
                     for(var i=0; i<bye.length; i++){
 					bye[i].style.display = 'block';
@@ -237,9 +241,9 @@
                     textCard[k].style.gap = "50px"; 
                     }
 
+                    
+                
 				})
- 
-
 
                 
 
